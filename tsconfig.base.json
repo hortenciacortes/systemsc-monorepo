@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@systemsc/button": ["libs/button/src/index.ts"],
-      "@systemsc/ds-storybook": ["libs/storybook-host/src/index.ts"]
+      "@systemsc/ds-storybook": ["libs/storybook-host/src/index.ts"],
+      "@systemsc/input": ["libs/input/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
