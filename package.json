@@ -32,6 +32,7 @@
     "@angular/cli": "~17.3.0",
     "@angular/compiler-cli": "~17.3.0",
     "@angular/language-service": "~17.3.0",
+    "@compodoc/compodoc": "^1.1.25",
     "@nx/eslint": "19.0.4",
     "@nx/eslint-plugin": "19.0.4",
     "@nx/jest": "19.0.4",
