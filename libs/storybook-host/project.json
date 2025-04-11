@@ -85,6 +85,10 @@
           "buildTarget": "storybook-host:build-storybook:ci"
         }
       }
+    },
+    "chromatic": {
+      "dependsOn": ["build-storybook"],
+      "command": "chromatic --storybook-build-dir=dist/storybook/storybook-host"
     }
   }
 }
