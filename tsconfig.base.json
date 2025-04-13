@@ -26,6 +26,9 @@
       ],
       "@systemsc/input": [
         "libs/ui/input/src/index.ts"
+      ],
+      "@systemsc/typography": [
+        "libs/ui/typography/src/index.ts"
       ]
     }
   },
