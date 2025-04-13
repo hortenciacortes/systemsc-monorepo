@@ -2,5 +2,7 @@
   [class]="variant + ' ' + theme"
   [disabled]="disabled"
 >
-  {{ text }}
+  <dsc-typography variant="normal" size="lg">
+    <ng-content />
+  </dsc-typography>
 </button>
