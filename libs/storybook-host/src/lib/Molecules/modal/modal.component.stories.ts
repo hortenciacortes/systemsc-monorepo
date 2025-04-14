@@ -39,3 +39,9 @@ export const Open: Story = {
   },
 };
 
+export const Closed: Story = {
+  args: {
+    ...Open.args,
+    isOpen: false,
+  },
+};
