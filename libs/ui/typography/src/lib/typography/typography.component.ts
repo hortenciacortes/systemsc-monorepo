@@ -13,7 +13,11 @@ type Text =
 @Component({
   standalone: true,
   styleUrls: ['./typography.component.css'],
-  template: `<h1 class="typography {{ size }}"><ng-content /></h1>`,
+  template: `
+    <h1 class="typography {{ size }}">
+      <ng-content />
+    </h1>
+  `,
 })
 export class H1Component {
   @Input() size!: Size;
