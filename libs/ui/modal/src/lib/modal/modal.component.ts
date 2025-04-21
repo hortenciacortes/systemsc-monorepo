@@ -19,10 +19,12 @@ export class ModalComponent implements AfterViewChecked {
   @ViewChild('modal') modal!: ElementRef<HTMLDialogElement>;
 
   ngAfterViewChecked(): void {
-    if (this.isOpen) {
-      this.modal.nativeElement.showModal();
-    } else {
-      this.modal.nativeElement.close();
+    if (this.modal?.nativeElement?.showModal) {
+      if (this.isOpen) {
+        this.modal.nativeElement.showModal();
+      } else {
+        this.modal.nativeElement.close();
+      }
     }
   }
 
