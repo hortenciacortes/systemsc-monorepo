@@ -2,8 +2,9 @@
   <ng-content />
 </ng-template>
 
-<ng-container *ngComponentOutlet="
+<ng-container 
+  *ngComponentOutlet="
   component;
   content: dynamicComponentContent;
-  inputs: { size }
-" />
+  inputs: { size }"
+/>
