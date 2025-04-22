@@ -1,12 +1,12 @@
 {
   "name": "@systemsc/button",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
   },
   "dependencies": {
-    "@systemsc/typography": "3.0.0"
+    "@systemsc/typography": "4.0.0"
   },
   "sideEffects": false,
   "publishConfig": {
