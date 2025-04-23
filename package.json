@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx run storybook-host:storybook"
+    "start": "nx run storybook-host:storybook",
+    "release": "nx release --skip-publish"
   },
   "private": true,
   "dependencies": {
